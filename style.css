@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(30, 114, 249, 0.998);
+  padding-right: 20px;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  left: 0;
+  right: 0;
+}
+.header > span {
+  padding: 4px;
+  font-size: 20px;
+}
+.header > a:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.home-section {
+  /* background-image: url("./images/img1.jpg"); */
+  background-image: url("images/newbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.home-content {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 40%;
+  /* position: absolute;
+  top: 30%;
+  left: 8%; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hello {
+  font-size: 4rem;
+  font-weight: 100;
+  text-shadow: 2px 2px 6px gray;
+}
+.name {
+  font-size: 55px;
+  font-weight: 600;
+  color: orange;
+  text-shadow: 2px 2px 6px black;
+}
+.student {
+  font-size: 40px;
+}
+.home-btn {
+  display: flex;
+  gap: 80px;
+  margin-top: 30px;
+}
+.home-btn button:hover {
+  background-color: orange;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px black;
+}
+.home-btn button:active {
+  transition: ease-in-out;
+  transform: scale(0.9);
+}
+.home-section button {
+  padding: 13px;
+  border-radius: 20px;
+  border: 2px solid rgb(121, 95, 236);
+  font-size: 20px;
+}
+.about-section {
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+}
+
+.about-content {
+  margin: 20px 180px 20px 180px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  text-wrap: wrap;
+  color: rgb(11, 11, 11);
+  box-shadow: 2px 2px 6px 2px rgb(56, 55, 55);
+}
+.education-section {
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  padding-top: 30px;
+}
+.education-container {
+  box-shadow: 2px 2px 6px 2px rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-top: 40px;
+  padding: 20px;
+}
+.education-section .left {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.education-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+}
+.education-content .details {
+  display: flex;
+  height: 33.33%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.education-container .vertical {
+  content: "";
+  width: 0px;
+  height: 140px;
+  border: 1px solid red;
+  margin-left: 10px;
+}
+.education-content .details p {
+  font-size: 20px;
+}
+.education-content .details h2 {
+  color: red;
+}
+.projects {
+  text-align: center;
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 450px; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.projects .project-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  gap: 30px 30px;
+  /* margin-top: 40px; */
+  align-items: center;
+  padding-top: 80px;
+}
+
+.projects1,
+.projects2 {
+  display: flex;
+  justify-content: center;
+  /* align-items: space-between; */
+  gap: 30px;
+}
+.projects .card {
+  display: flex;
+  /* justify-content: center; */
+  box-shadow: 2px 2px 6px 2px rgb(41, 41, 41);
+  margin: 10px;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  width: 50%;
+  padding: 30px;
+  gap: 20px;
+}
+.projects .card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.project-content .card h2 {
+  color: rgb(221, 17, 153);
+}
+.skills {
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+}
+.skills .skill-content {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  padding: 80px;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+.skills .outer-skill {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(93, 161, 216);
+  box-shadow: 2px 2px 8px 4px rgb(233, 247, 49);
+}
+
+.skills .skill-content .inner-skill {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(245, 245, 243);
+  margin-top: 10px;
+}
+
+.inner-skill {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.inner-skill img {
+  width: 70px;
+  height: 70px;
+}
+.experience-section {
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+.experience-content {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-section {
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.contact-content {
+  font-size: 20px;
+}
+.submit:hover {
+  background-color: orange;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px black;
+}
