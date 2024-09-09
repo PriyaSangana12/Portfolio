@@ -101,7 +101,7 @@ h1{
   background-size: cover;
   width: 100%;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 70px;
 }
 .about-section{
   display: flex;
@@ -131,7 +131,7 @@ h1{
   align-items: center;
   flex-direction: column;
   height: 700px;
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 30px;
 }
 .education-container {
@@ -183,7 +183,7 @@ h1{
   background-image: url("images/bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 40px;
+  padding-top: 70px;
   padding-bottom: 40px;
 }
 .projects .project-content {
@@ -238,8 +238,8 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 20px;
+  padding-top: 70px;
   height: auto;
 }
 .skills .skill-content {
@@ -294,6 +294,7 @@ h1{
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding-top: 50px;
   gap: 30px;
 }
 
