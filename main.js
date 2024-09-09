@@ -1,45 +1,45 @@
-AOS.init();
-var slideleft1 = {
-    distance: '200%',
-    origin: 'left',
-    opacity: null,
-    delay: 375,
-    duration: 800,
-    reset: true,
-    easing: 'cubic-bezier(0.5, 0, 0, 1)',
-};
-var slideright1 = {
-    distance: '200%',
-    origin: 'right',
-    opacity: null,
-    delay: 675,
-    duration: 800,
-    reset: true,
-    easing: 'cubic-bezier(0.5, 0, 0, 1)',
-};
-var slideleft2 = {
-    distance: '200%',
-    origin: 'left',
-    opacity: null,
-    delay: 375,
-    duration: 800,
-    reset: true,
-    easing: 'cubic-bezier(0.5, 0, 0, 1)',
-};
-var slideright2 = {
-    distance: '200%',
-    origin: 'right',
-    opacity: null,
-    delay: 675,
-    duration: 800,
-    reset: true,
-    easing: 'cubic-bezier(0.5, 0, 0, 1)',
-};
+// AOS.init();
+// var slideleft1 = {
+//     distance: '200%',
+//     origin: 'left',
+//     opacity: null,
+//     delay: 375,
+//     duration: 800,
+//     reset: true,
+//     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+// };
+// var slideright1 = {
+//     distance: '200%',
+//     origin: 'right',
+//     opacity: null,
+//     delay: 675,
+//     duration: 800,
+//     reset: true,
+//     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+// };
+// var slideleft2 = {
+//     distance: '200%',
+//     origin: 'left',
+//     opacity: null,
+//     delay: 375,
+//     duration: 800,
+//     reset: true,
+//     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+// };
+// var slideright2 = {
+//     distance: '200%',
+//     origin: 'right',
+//     opacity: null,
+//     delay: 675,
+//     duration: 800,
+//     reset: true,
+//     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+// };
 
-ScrollReveal().reveal('.one', slideleft1);
-ScrollReveal().reveal('.two', slideright1);
-ScrollReveal().reveal('.three', slideleft2);
-ScrollReveal().reveal('.four', slideright2);
+// ScrollReveal().reveal('.one', slideleft1);
+// ScrollReveal().reveal('.two', slideright1);
+// ScrollReveal().reveal('.three', slideleft2);
+// ScrollReveal().reveal('.four', slideright2);
 
 
 // Wrap every letter in a span
